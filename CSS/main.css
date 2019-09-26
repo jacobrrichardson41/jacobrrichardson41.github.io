@@ -1,0 +1,51 @@
+ body {
+     background-color:green;
+     margin: 0;
+     padding: 0;
+ }
+ #about {
+     text-align: center;
+     
+ }
+ #paragraph {
+     text-align: center;
+ }
+ 
+ #header {
+     background-color: blue;
+     top: 0;
+      position: fixed; 
+     width: 100%;
+
+ }
+ #LinkedIn {
+    color: green;
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+ }
+
+ #GitHub {
+    color: green;
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+  }
+   
+  #Twitter {
+     color: green;
+     display: inline-block;
+     width: 34%;
+     text-align: center;
+  }
+ 
+ 
+
+   #picture {
+       position: center;
+       display: block;
+        width: 500px;
+        height: auto;
+       margin: 400px auto;
+       margin-bottom: 0;
+   }
