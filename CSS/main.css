@@ -1,5 +1,5 @@
  body {
-     background-color:green;
+     background-color: white;
      margin: 0;
      padding: 0;
  }
@@ -13,28 +13,28 @@
  }
  
  #header {
-     background-color: blue;
+     background-color: grey;
      top: 0;
       position: fixed; 
      width: 100%;
 
  }
  #LinkedIn {
-    color: green;
+    color: black;
     display: inline-block;
     width: 33%;
     text-align: center;
  }
 
  #GitHub {
-    color: green;
+    color: black;
     display: inline-block;
     width: 33%;
     text-align: center;
   }
    
   #Twitter {
-     color: green;
+     color: black;
      display: inline-block;
      width: 34%;
      text-align: center;
@@ -52,7 +52,7 @@
    }
 
    #contactInfo {
-       background-color: blue;
+       background-color: gray;
        font-size: 20px;
    }
    #contactHeader {
@@ -62,11 +62,11 @@
    
    #email {
        text-align: center;
-       font: 30px;
+       font-size: 30px;
    }
    #myEmail {
        text-align: center;
-       font: 30px;
+       font-size: 30px;
    }
 
    #myPhone {
