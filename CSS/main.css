@@ -9,6 +9,7 @@
  }
  #paragraph {
      text-align: center;
+     float: center;
  }
  
  #header {
@@ -48,4 +49,27 @@
         height: auto;
        margin: 400px auto;
        margin-bottom: 0;
+   }
+
+   #contactInfo {
+       background-color: blue;
+       font-size: 20px;
+   }
+   #contactHeader {
+     text-align: center;
+     
+   }
+   
+   #email {
+       text-align: center;
+       font: 30px;
+   }
+   #myEmail {
+       text-align: center;
+       font: 30px;
+   }
+
+   #myPhone {
+       text-align: center;
+       font-size: 30px;
    }
