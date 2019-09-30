@@ -10,12 +10,14 @@
   
  }
 
-.headerDiv {
+.headerDiv,   .FirstProject, .multiPage, .resourcePage, .javaScriptClock, .javaScriptToDo, .javaScriptQuiz {
+    text-align:center;
     background-color: blue;
     border: 5px solid black;
     width: 50%;
     margin: 0 auto;
- }
+}
+ 
 
  #paragraph {
      text-align: center;
@@ -66,7 +68,7 @@
        object-fit: cover;
    }
 
-   .picture1, .picture2, .picture3, .picture4 {
+   .picture1, .picture2, .picture3, .picture4, .picture5, .picture6, .picture7{
        position: center;
        display:block;
        width: 500px;
@@ -74,11 +76,9 @@
        margin: 60px auto;
    }
  
-    .FirstProject, .multiPage {
+    .FirstProjectPara, .multiPagePara, .resourcePagePara, .javaScriptClockPara, .javaScriptToDoPara, .javaScriptQuizPara {
         text-align:center;
-    }
-    .FirstProjectPara, .multiPagePara {
-        text-align:center;
+        font-size: 30px;
     }
 
    #contactInfo {
