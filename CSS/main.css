@@ -2,7 +2,10 @@
      background-color: white;
      margin: 0;
      padding: 0;
+     width: 100%;
+
  }
+
 
 .headerText {
      text-align: center;
@@ -10,18 +13,31 @@
   
  }
 
-.headerDiv,   .FirstProject, .multiPage, .resourcePage, .javaScriptClock, .javaScriptToDo, .javaScriptQuiz {
+.headerDiv, .skills {
     text-align:center;
     background-color: blue;
     border: 5px solid black;
     width: 50%;
     margin: 0 auto;
+    font-family: 'Lora', serif;
 }
+ .headerDiv {
+     margin-top: 50px;
+ }
+
+ #Name {
+     text-align: center;
+     margin-top: 50px;
+     font-size: 100px;
+ }
+
+
  
 
  #paragraph {
      text-align: center;
      float: center;
+     font-size: 30px;
  }
  
  #header {
@@ -61,13 +77,20 @@
    #picture  {
        position: center;
        display: block;
-        width: 500px;
-        height: 500px;
+        width: 100%;
+        height: 100%;
         margin: 60px auto;
        border-radius: 50%;
        object-fit: cover;
    }
-
+   .FirstProject, .multiPage, .resourcePage, .javaScriptClock, .javaScriptToDo, .javaScriptQuiz {
+    text-align:center;
+    background-color: green;
+    border: 5px solid black;
+    width: 50%;
+    margin: 0 auto;
+    font-family: 'Teko', sans-serif;
+   }
    .picture1, .picture2, .picture3, .picture4, .picture5, .picture6, .picture7{
        position: center;
        display:block;
@@ -83,10 +106,14 @@
 
    #contactInfo {
        background-color: gray;
+       width: 100%;
+       display: inline-block;
      
    }
    #contactHeader {
      text-align: center;
+     background-color: green;
+
      
    }
    
@@ -97,17 +124,17 @@
    }
    #myEmail {
        text-align: center;
-       font-size: 20px;
+       font-size: 30px;
    }
    #phoneNumber {
        text-align:center;
-       font-size: 20px;
+       font-size: 30px;
        font-weight: bold;
    }
 
    #myPhone {
        text-align: center;
-       font-size: 20px;
+       font-size: 30px;
    }
 
    #Twitter:hover {
@@ -119,3 +146,18 @@
    #LinkedIn:hover {
        color: red;
    }
+   .cssLogo, .html, .js, .gitHub {
+       width: 150px;
+       height: 150px;
+       display: block;
+       margin: auto;
+       text-align: center;
+   } 
+   .htmlHeader, .cssHeader, .jsHeader, .gitHubHeader {
+       display: block;
+       text-align: center;
+
+   }
+
+
+   
